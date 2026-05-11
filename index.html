@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+    <!-- Es obligatorio indicar al navegador que es un documento htmls (no es estiqueta, es declaración)-->
+
+<html lang="es">
+    <!--<html>: raíz del documento
+        'lang="es"': define idioma principalde la página (español)-->
+
+<head>
+    <!--<head>: contiene metadatos (información técnica), enlaces  CSS/JS y el título de la página, NO es visible-->
+    <meta charset="UTF-8">
+        <!--'charset="UFT-8"': codificación de carácteres
+        UTF_8: inluye símbolos internacionales (acentos, etc.) y evita erros de visualización con carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--'viewport':configura como se adapta-->
+    <meta name="copyright" content="© 2025 Daniela Correa">
+    <meta name="keywords" content="Raíces, mexicano, tradicional">
+    <meta name="author" content="Daniela Correa">
+    
+    <title>Raíces</title>
+        <!--<title>: Título de la pestaña del navegador y resultado en búsqueda (máximo 60 carácteres)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <!-- Permite poner íconos como el de facebook-->
+    <link rel="stylesheet"href="css/style.css">
+        <!--Enlaza el archivo CSS
+        'rel=stylesheet': define la relación
+        'href': ruta relativa al archivo CSS-->
+    <link rel="icon" href="img/favicon.ico">
+        <!--Favicon: ícono pequeño en la pestaña del navvegador(formatos: .ico, .png, .svg)-->
+</head>
+
+<body>
+    <!--<body>: contiene TODO el contenido visible de la página-->
+    <header class="header"> 
+        <!-- Es la cabecera de la página o de una sección (logo, menú de navegación y/o buscador)
+         'class="header"': para estilos CSS (opcional pero recomendado)-->
+
+        <div class="logo"> 
+            <h1>Raíces</h1>
+                <!--Título principal (solo uno por página para SEO)-->
+            <p>Tradición en cada bocado</p>
+        </div>
+        <nav class="nav">
+            <!--<nav>: menú de navegación principal que contiene los enlaces importantes-->
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="https://forms.gle/28fGBLM1Mv7e5gtp7">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                    <!--'href="#inicio"': enlace ancla (scroll a la sección con id="inicio")
+                    los enlaces en <nav> suelen ser relativos (#) o absolutos (/menu.html)-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--<main>: contenido principal único del documento, solo debe haber uno por página y no incluye
+        cabecera, pie de página o barras laterales-->
+        <section id="inicio" class="hero">
+            <!--<section>: agrupa contenido temático relacionado
+            'id="inicio"': identificador único para enlaces ancla
+            'class="hero"': para estilizar esta sección cini "hero" (portada)-->
+            <div class="hero-content">
+                <h2>Bienvenidos a Raíces</h2>
+                    <!--<h2>: subtítulo (jerarquía después de <h1>), usar h2-h6 para estructurar contenidos-->
+                <p>Descubre México a través de sus sabores</p>
+                <a href="https://forms.gle/28fGBLM1Mv7e5gtp7" class="btn">Reservar</a>  
+                <a href="https://co.donjulio.com/" class="btn">Shop</a>
+                    <!--'btn': clase CSS para estilizar el botón-->
+            </div>
+        </section>
+
+        <!--Menú-->
+        <section id="menu" class="menu">
+            <h2>Nuestro Menú</h2>
+        
+        <!--Botones de filtrado-->
+        <div class="menu-filters">
+            <button class="filter-btn active" data-category="all">Todo</button>
+            <button class="filter-btn active" data-category="entradas y sopas">Entradas y sopas</button>
+            <button class="filter-btn active" data-category="platos fuertes y especialidades">Platos fuertes y especialidades</button>
+            <button class="filter-btn active" data-category="postres">Postres</button>
+            <button class="filter-btn active" data-category="bebidas">Bebidas</button>
+        </div>
+
+        <div class="menu-items"></div>
+        
+        </section>
+
+        <!-- Slider del restaurante -->
+        <div class="row">
+            <!-- si colocas <div> entre las imágenes se colocan en vertical, si no lo pones se colocan en horizontal-->
+            <img src="IMG/Restaurante1.jpg" alt="Restaurante 1" style="width:250px; height:350px">
+            <img src="IMG/Restaurante2.jpg" alt="Restaurante 2" style="width:250px; height:350px">
+            <img src="IMG/Restaurante3.jpg" alt="Restaurante 3" style="width:250px; height:350px">
+
+        </div>
+
+      <!-- Botones de abajo de las imágenes     
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+            --> 
+    </main>
+
+    <aside class="aside">
+        <!--<aside>: contenido secundario o relacionado indirectamente (promociones, enlaces externos, publicidad)-->
+        <h3>Promociones</h3>
+        <p>Por apertura: Prueba 3 platillos distintos y recibe el postre de la casa gratis.</p>
+        <p>Válido de lunes a jueves, de 1 p.m. a 5 p.m.</p>
+    </aside>
+
+    <footer id="contacto" class="footer">
+        <!-- <footer>: pie de págna, puede usarse al final de <article> o <section>-->
+        <div class="footer-content">
+
+        <address>
+            <!--información de contacto (física, email, teléfono), los navegadores/SEO lo asocian a datos de ubicación-->
+            <a href="https://maps.app.goo.gl/3MVd6XjvBbD1x2Xf8"
+            target="_blank" rel="noreferrer noopener">C. Calderón de la Barca 108, Polanco, 11570 Ciudad de México, CDMX</a>
+            
+            <br>   
+            Teléfono: <a href="tel:+5545501053">+55 4550 1053</a>
+                    <!--'href="tel+xxx"': enlace para llamar desde móviles-->
+        </address> 
+
+
+       <p class="copyright">&copy; 2025 Raíces</p>
+       <!-- Copyright-->
+        <div class="social">
+            <a href="https://www.facebook.com/share/16UihMihsJ/?mibextid=wwXIfr" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/dani_oso_?igsh=b284aTc3aWE1N2l1&utm_source=qr" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+       </div>
+    </footer>
+    <script src="JS/Script.js"></script>
+</body>
+</html>
