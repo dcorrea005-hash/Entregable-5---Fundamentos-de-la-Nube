@@ -7,7 +7,7 @@ const menuItems = [
     name: "Sopa de Lima Yucateca", 
     category: "entradas y sopas", 
     price: "$95 MXN", 
-    image: "IMG/Entrada1.jpg", 
+    image: "Entrada1.jpg", 
     description: "Caldo de pollo con lima, tortilla crujiente y especias suaves."
 },
 { 
@@ -15,7 +15,7 @@ const menuItems = [
     name: "Queso Fundido con Chorizo", 
     category: "entradas y sopas", 
     price: "$120 MXN", 
-    image: "IMG/Entrada2.jpg", 
+    image: "Entrada2.jpg", 
     description: "Queso derretido con chorizo artesanal, acompañado de tortillas hechas a mano."
 },
 {   
@@ -23,7 +23,7 @@ const menuItems = [
     name: "Esquites Tradicionales", 
     category: "entradas y sopas", 
     price: "$75 MXN", 
-    image: "IMG/Entrada3.jpg", 
+    image: "Entrada3.jpg", 
     description: "Elote en vaso con mayonesa, queso, chile y un toque de limón."
 },
 
@@ -33,7 +33,7 @@ const menuItems = [
     name: "Mole Negro Oaxaqueño con Pollo", 
     category: "platos fuertes y especialidades", 
     price: "$220 MXN", 
-    image: "IMG/Plato1.jpg", 
+    image: "Plato1.jpg", 
     description: "Receta tradicional con cacao y chiles secos, servido con arroz y tortillas recién hechas."
 },
 { 
@@ -41,7 +41,7 @@ const menuItems = [
     name: "Tacos de Cochinita Pibil", 
     category: "platos fuertes y especialidades", 
     price: "$145 MXN (3 pzas.)", 
-    image: "IMG/Plato2.jpg", 
+    image: "Plato2.jpg", 
     description: "Cerdo marinado en achiote y naranja agria, servido en tortillas azules con cebolla morada encurtida."
 },
 { 
@@ -49,7 +49,7 @@ const menuItems = [
     name: "Tlayuda con Tasajo", 
     category: "platos fuertes y especialidades", 
     price: "$180 MXN", 
-    image: "IMG/Plato3.jpg", 
+    image: "Plato3.jpg", 
     description: "Tortilla crujiente con frijoles, queso de hebra, tasajo y vegetales frescos."
 },
 
@@ -59,7 +59,7 @@ const menuItems = [
     name: "Tamal de Elote Dulce", 
     category: "postres", 
     price: "$65 MXN", 
-    image: "IMG/Postre1.jpg", 
+    image: "Postre1.jpg", 
     description: "Esponjoso y suave, acompañado de crema fresca y canela."
 },
 { 
@@ -67,7 +67,7 @@ const menuItems = [
     name: "Flan de Cajeta", 
     category: "postres", 
     price: "$70 MXN", 
-    image: "IMG/Postre2.jpg", 
+    image: "Postre2.jpg", 
     description: "Cremoso y con caramelo de leche de cabra."
 },
 { 
@@ -75,7 +75,7 @@ const menuItems = [
     name: "Buñuelos de Viento", 
     category: "postres", 
     price: "$60 MXN", 
-    image: "IMG/Postre3.jpg", 
+    image: "Postre3.jpg", 
     description: "Crujientes y espolvoreados con azúcar y canela."
 },
 
@@ -85,7 +85,7 @@ const menuItems = [
     name: "Agua de Jamaica con Especias", 
     category: "bebidas", 
     price: "$45 MXN", 
-    image: "IMG/Bebida1.jpg", 
+    image: "Bebida1.jpg", 
     description: "Refrescante, con un ligero toque de canela."
 },
 { 
@@ -93,7 +93,7 @@ const menuItems = [
     name: "Atole de Vainilla", 
     category: "bebidas", 
     price: "$50 MXN", 
-    image: "IMG/Bebida2.jpg", 
+    image: "Bebida2.jpg", 
     description: "Espeso, caliente y aromático."
 },
 { 
@@ -101,7 +101,7 @@ const menuItems = [
     name: "Café de Olla", 
     category: "bebidas", 
     price: "$55 MXN", 
-    image: "IMG/Bebida3.jpg", 
+    image: "Bebida3.jpg", 
     description: "Tradicional con piloncillo y canela, servido en jarrito de barro."
 },
 { 
@@ -109,7 +109,7 @@ const menuItems = [
     name: "Mezcal Margarita", 
     category: "bebidas", 
     price: "$120 MXN", 
-    image: "IMG/Bebida4.jpg", 
+    image: "Bebida4.jpg", 
     description: "Clásica margarita mexicana con un toque de mezcal ahumado, jugo de limón fresco y sal de gusano en el borde."
 },
 { 
@@ -117,7 +117,7 @@ const menuItems = [
     name: "Carajillo de Café de Olla", 
     category: "bebidas", 
     price: "$110 MXN", 
-    image: "IMG/Bebida5.jpg", 
+    image: "Bebida5.jpg", 
     description: "icor 43 mezclado con café de olla, con notas de piloncillo y canela."
 }, 
 { 
@@ -125,7 +125,7 @@ const menuItems = [
     name: "Michelada Artesanal", 
     category: "bebidas", 
     price: "$95 MXN", 
-    image: "IMG/Bebida6.jpg", 
+    image: "Bebida6.jpg", 
     description: "Cerveza mexicana servida con jugo de limón, salsas tradicionales, escarchado de chile en polvo y un toque de chamoy."
 },
 ];
